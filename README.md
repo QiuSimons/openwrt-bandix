@@ -1,10 +1,10 @@
-# OpenWrt-Bandix
+# openwrt-bandix
 
 [![许可证](https://img.shields.io/badge/许可证-Apache--2.0-blue.svg)](LICENSE)
 
 ## 简介
 
-OpenWrt-Bandix 是 luci-app-bandix 的依赖包，提供网络流量监控的核心功能。
+openwrt-bandix 是 luci-app-bandix 的依赖包，提供网络流量监控的核心功能。
 
 ## 安装方法
 
