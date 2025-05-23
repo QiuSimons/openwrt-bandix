@@ -16,7 +16,7 @@ start_service() {
 	local enabled
 	
 	config_load 'bandix'
-	config_get_bool enabled 'general' 'enabled' '0'
+	config_get_bool enabled 'general' 'enabled' '1'
 	
 	[ "$enabled" -eq 1 ] || return 1
 	

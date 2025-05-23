@@ -21,8 +21,8 @@ PKG_SOURCE_URL:=https://github.com/timsaya/bandix/releases/download/v$(PKG_VERSI
 PKG_HASH:=skip
 
 define Package/$(PKG_NAME)
-	SECTION:=examples
-	CATEGORY:=Examples
+	SECTION:=net
+	CATEGORY:=Network
 	TITLE:=Bandix - Network traffic monitoring tool
 endef
 
