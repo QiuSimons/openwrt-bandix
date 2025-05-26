@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bandix
-PKG_VERSION:=0.1.0
+PKG_VERSION:=0.2.1
 PKG_RELEASE:=1
 
 PKG_LICENSE:=Apache-2.0
@@ -13,11 +13,12 @@ include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/rust/rust-values.mk
 
 # 二进制文件的文件名和URL
-RUST_BINARY_FILENAME:=bandix-$(PKG_VERSION)-$(RUSTC_TARGET_ARCH).tar.gz
+RUST_BANDIX_VERSION:=0.2.1
+RUST_BINARY_FILENAME:=bandix-$(RUST_BANDIX_VERSION)-$(RUSTC_TARGET_ARCH).tar.gz
 
 # 修正下载地址定义方式
 PKG_SOURCE:=$(RUST_BINARY_FILENAME)
-PKG_SOURCE_URL:=https://github.com/timsaya/bandix/releases/download/v$(PKG_VERSION)
+PKG_SOURCE_URL:=https://github.com/timsaya/bandix/releases/download/v$(RUST_BANDIX_VERSION)
 PKG_HASH:=skip
 
 define Package/$(PKG_NAME)
