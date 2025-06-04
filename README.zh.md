@@ -1,6 +1,6 @@
 # openwrt-bandix
 
-简体中文 | [English](README.md)
+[English](README.md) 简体中文
 
 [![许可证](https://img.shields.io/badge/许可证-Apache--2.0-blue.svg)](LICENSE)
 
