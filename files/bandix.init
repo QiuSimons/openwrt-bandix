@@ -21,7 +21,7 @@ start_service() {
 	config_get_bool enabled 'general' 'enabled' '1'
 	config_get port 'general' 'port' '8686'
 	config_get interface 'general' 'interface' 'br-lan'
-	config_get retention_seconds 'general' 'retention_seconds' '3600'
+	config_get retention_seconds 'general' 'retention_seconds' '600'
 	config_get data_dir 'general' 'data_dir' '/usr/share/bandix'
 	
 	[ "$enabled" -eq 1 ] || return 1
